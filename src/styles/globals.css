@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'ProductSans';
+  src: url('/assets/fonts/ProductSans-Regular.ttf');
+}
+@font-face {
+  font-family: 'ProductSansBold';
+  src: url('/assets/fonts/ProductSans-Bold.ttf');
+}
+@font-face {
+  font-family: 'ProductSansItalic';
+  src: url('/assets/fonts/ProductSans-Italic.ttf');
+}
+@font-face {
+  font-family: 'ProductSansBoldItalic';
+  src: url('/assets/fonts/ProductSans-BoldItalic.ttf');
+}
+
+* {
+  font-family: 'ProductSans';
+}
+
+h1 {
+  font-family: 'ProductSansBold';
+}
+
+@keyframes move-bg-btn {
+  0% {
+    background-size: 0% 4em;
+  }
+  100% {
+    background-size: 100% 4em;
+  }
+}
+
+.underlinable {
+  transition: transform 0.3s ease-out;
+  transition-property: all;
+  background: linear-gradient(#02285a, #1c375b);
+  background-position: -100% -37%;
+  background-size: 0% 4em;
+  animation: move-bg-btn 1s ease 1 reverse;
+  background-repeat: no-repeat;
+}
+.underlinable:hover {
+  color: #1c375b;
+  /* transform: scale(1.1); */
+  animation: move-bg-btn 1s ease 1;
+  background-size: 100% 4em;
+}
