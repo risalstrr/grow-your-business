@@ -32,7 +32,7 @@ export const LessonCard: React.FC<Props> = ({ lesson, className, handler }) => {
           <p>{lesson.description}</p>
           <p>
             <span className="font-productSansBold text-purple-terong">
-              Harga:
+              Price:
             </span>{' '}
             {lesson.price}
           </p>
@@ -44,25 +44,25 @@ export const LessonCard: React.FC<Props> = ({ lesson, className, handler }) => {
           </p>
           <p>
             <span className="font-productSansBold text-purple-terong">
-              Total pendaftar:{' '}
+              Registrants:{' '}
             </span>
             {lesson.total_mentee}
           </p>
           <p className="mt-3 mb-6">
             <span className="font-productSansBold text-purple-terong">
-              Pengajar:
+              Teacher:
             </span>{' '}
             {lesson.creator}
           </p>
           <p className="mt-3 mb-6">
             <span className="font-productSansBold text-purple-terong">
-              Kelas dimulai:
+              Class begin:
             </span>{' '}
             {lesson.class_start.toString()}
           </p>
           <p className="mt-3 mb-6">
             <span className="font-productSansBold text-purple-terong">
-              Kelas berakhir:
+              Class end:
             </span>{' '}
             {lesson.class_end.toString()}
           </p>
@@ -80,7 +80,7 @@ export const LessonCard: React.FC<Props> = ({ lesson, className, handler }) => {
             href="https://web.whatsapp.com/"
             // disabled={!jwt || workshop.stock == 0}
           >
-            {jwt ? 'Hubungi Contact Person' : 'Login first!'}
+            {jwt ? 'Call Contact Person' : 'Login first!'}
           </Button>
         </div>
       </div>

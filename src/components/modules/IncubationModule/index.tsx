@@ -43,7 +43,7 @@ export const IncubationModule: React.FC = () => {
           <TextInput
             id="searchQuery"
             type="text"
-            placeholder="Contoh: Antler"
+            placeholder="Example: Antler"
             onChange={(e) => setSearchQuery(e.target.value)}
             value={searchQuery}
             className="w-full"

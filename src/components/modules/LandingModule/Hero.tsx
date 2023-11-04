@@ -74,10 +74,10 @@ export default function Hero() {
             <h1 className="text-grey-dark lg:text-display-medium text-display-small font-bold mr-3 md:my-0 my-auto">
               GrowBiz{' '}
             </h1>
-            <p>
+            {/* <p>
               We built this website with the hopes of well-linking MSME'S across
               the Wellesley & Needham town!
-            </p>
+            </p> */}
 
             <br />
             <p className="text-left lg:text-xl md:text-xl text-lg">
@@ -93,7 +93,7 @@ export default function Hero() {
               className=" bg-purple-light w-[50%] hover:text-purple-light hover:bg-purple-lightest md:mr-auto md:mx-0 mx-auto"
               href="#about"
             >
-              Yuk, eksplor!
+              Let's Explore!
             </Button>
           </div>
 

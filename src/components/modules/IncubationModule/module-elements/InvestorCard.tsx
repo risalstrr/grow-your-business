@@ -54,13 +54,13 @@ export const IncubationCard: React.FC<Props> = ({
           <p className="text-lg mb-3">{incu.description}</p>
           <p className="font-normal text-gray-700 dark:text-gray-400">
             <span className="font-productSansBold text-purple-terong">
-              Kategori Bisnis:{' '}
+              Business Category:{' '}
             </span>
             {incu.business_category}
           </p>
           <p className="font-normal text-gray-700 mt-3 mb-6 dark:text-gray-400">
             <span className="font-productSansBold text-purple-terong">
-              Kriteria UMKM:{' '}
+              MSME's Criteria:{' '}
             </span>
             {incu.criteria}
           </p>
