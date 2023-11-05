@@ -43,7 +43,7 @@ export const ProductCard: React.FC<Props> = ({
           <ALink
             className="text-purple-light"
             uppercase={false}
-            href={`https://growbiz-pekanit.vercel.app/Products/${product.id}`}
+            href={`https://growbiz-learnhacks2023.vercel.app/Products/${product.id}`}
           >
             View more
           </ALink>
