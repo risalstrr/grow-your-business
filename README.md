@@ -1,5 +1,19 @@
 # GrowBiz: Empowering MSMEs in Indonesia 🌱🚀
 
+# Setting Up Next.js Project
+
+Follow these steps to set up and run a Next.js project:
+
+## Step 1: Clone the Repository
+
+```bash
+git clone <repository-url>
+cd <project-folder>
+npm install
+npm run dev
+
+go to http://localhost:3000/
+
 ## Background
 
 Micro, Small, and Medium Enterprises (MSMEs) play a pivotal role in Indonesia's economy, contributing significantly to GDP and employment. Despite their resilience, MSMEs face various challenges, such as manual financial management, limited access to technology, and fierce competition. GrowBiz aims to address these issues by providing a comprehensive digital platform tailored to the unique needs of MSMEs.
