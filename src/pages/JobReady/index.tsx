@@ -54,18 +54,101 @@ export default function Service() {
           conferencing, and scheduling tools to facilitate effective
           communication.
         </p>
-        <div className="grid grid-cols-1 gap-10 my-14 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-x-1 gap-y-8">
-          {/* {workshops ? (
-              workshops?.map((workshop: WorkshopInterface, key: number) => (
-                <WorkshopCard
-                  key={key}
-                  workshop={workshop}
-                  handler={toast.error}
-                />
-              ))
-            ) : (
-              <Spinner />
-            )} */}
+        <div className="grid grid-cols-1 gap-10 my-14 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-x-1 gap-y-8">
+          <div
+            className={`
+  
+        relative bg-white drop-shadow-md w-[350px] mx-auto rounded-2xl 
+        transform hover:-translate-y-[0.5rem] hover:shadow-xl cursor-pointer
+        `}
+          >
+            <div className="flex flex-col gap-x-6 px-6 pt-6">
+              <h1 className="text-title-large">Sarah Chang</h1>
+
+              <p>
+                <span className="font-productSansBold text-purple-terong">
+                  Description:
+                </span>{' '}
+                Expertise in finance and risk management, high data analysis
+                skills, and experience working with sustainable business models.
+              </p>
+            </div>
+            <div className="flex justify-center gap-x-6 px-6 pb-6">
+              <Button
+                className="bg-indigo-500"
+                href=""
+                // disabled={!jwt}
+                // disabled={!jwt || workshop.stock == 0}
+              >
+                Be A Mentee
+                {/* {jwt ? 'Be A Mentee' : 'Login first!'} */}
+              </Button>
+            </div>
+          </div>
+
+          <div
+            className={`
+  
+        relative bg-white drop-shadow-md w-[350px] mx-auto rounded-2xl 
+        transform hover:-translate-y-[0.5rem] hover:shadow-xl cursor-pointer
+        `}
+          >
+            <div className="flex flex-col gap-x-6 px-6 pt-6">
+              <h1 className="text-title-large">Maria Rodriguez</h1>
+
+              <p>
+                <span className="font-productSansBold text-purple-terong">
+                  Description:
+                </span>{' '}
+                Exceptional communication skills, a wide network in the business
+                world, and expertise in building mutually beneficial business
+                relationships.
+              </p>
+            </div>
+            <div className="flex justify-center gap-x-6 px-6 pb-6">
+              <Button
+                className="bg-indigo-500"
+                href=""
+                // disabled={!jwt}
+                // disabled={!jwt || workshop.stock == 0}
+              >
+                Be A Mentee
+                {/* {jwt ? 'Be A Mentee' : 'Login first!'} */}
+              </Button>
+            </div>
+          </div>
+
+          <div
+            className={`
+  
+        relative bg-white drop-shadow-md w-[350px] mx-auto rounded-2xl 
+        transform hover:-translate-y-[0.5rem] hover:shadow-xl cursor-pointer
+        `}
+          >
+            <div className="flex flex-col gap-x-6 px-6 pt-6">
+              <h1 className="text-title-large">Alex Thompson</h1>
+
+              <p>
+                <span className="font-productSansBold text-purple-terong">
+                  Description:
+                </span>{' '}
+                Experience in addressing financial challenges and business
+                restructuring, in-depth knowledge of the global market, and
+                negotiation skills.
+              </p>
+            </div>
+            <div className="flex justify-center gap-x-6 px-6 pb-6">
+              <Button
+                className="bg-indigo-500"
+                href=""
+                // disabled={!jwt}
+                // disabled={!jwt || workshop.stock == 0}
+              >
+                Be A Mentee
+                {/* {jwt ? 'Be A Mentee' : 'Login first!'} */}
+              </Button>
+            </div>
+          </div>
         </div>
       </div>
     </div>
