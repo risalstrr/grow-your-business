@@ -131,7 +131,7 @@ export const WalletModule: React.FC = () => {
                   className="bg-blue-500 text-white px-4 py-2 rounded focus:outline-none focus:shadow-outline hover:bg-blue-600"
                 >
                   {chooseTypePengeluaran || chooseTypePemasukan
-                    ? `${chooseTypePemasukan ? 'Pemasukan' : 'Pengeluaran'}`
+                    ? `${chooseTypePemasukan ? 'Income' : 'Outcome'}`
                     : 'Type of Transaction'}
                 </button>
                 {open ? (
@@ -139,7 +139,7 @@ export const WalletModule: React.FC = () => {
                     <div className="rounded-md bg-white shadow-xs">
                       <a
                         onClick={() => {
-                          setJenisTransaksi('Pengeluaran')
+                          setJenisTransaksi('Outcome')
                           setChooseTypePengeluaran(!chooseTypePengeluaran)
                         }}
                         className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
@@ -148,7 +148,7 @@ export const WalletModule: React.FC = () => {
                       </a>
                       <a
                         onClick={() => {
-                          setJenisTransaksi('Pemasukan')
+                          setJenisTransaksi('Income')
                           setChooseTypePemasukan(!chooseTypePemasukan)
                         }}
                         className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"

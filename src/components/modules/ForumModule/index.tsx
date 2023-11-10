@@ -105,7 +105,7 @@ export const ForumModule: React.FC = () => {
             return forum
           }
         })
-        toast.success('Success like postingan')
+        toast.success('Like Success!')
         setForums(updatedForums)
         console.log(response.data)
       })
@@ -664,12 +664,12 @@ export const ForumModule: React.FC = () => {
                             Bonnie Green
                           </h5>
                           <span className="text-sm text-gray-500 dark:text-gray-400">
-                            UMKM
+                            MSME
                           </span>
                           <div className="flex mt-4 space-x-3 md:mt-6">
                             <button
                               disabled={!jwt}
-                              onClick={() => toast.success('Berhasil Connect')}
+                              onClick={() => toast.success('Connect Success!')}
                               className="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-purple-light hover:text-purple-lightest bg-purple-lightest rounded-lg hover:bg-purple-light focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
                             >
                               {jwt ? 'Connect' : 'Login first!'}
@@ -774,7 +774,7 @@ export const ForumModule: React.FC = () => {
                                     Bonnie Green
                                   </h5>
                                   <span className="text-sm text-gray-500 dark:text-gray-400">
-                                    UMKM
+                                    MSME
                                   </span>
                                 </div>
                                 <div
